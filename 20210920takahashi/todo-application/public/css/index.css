@@ -1,0 +1,97 @@
+.background-body {
+    background-color: #2e0080;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #2e0080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list {
+    background-color: #fff;
+    width: 80%;
+    margin: 20%;
+    padding: 30px;
+    border-radius: 10px;
+}
+.todo-list__title {
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+/* form 共通 */
+.input__textbox {
+    border: 2px solid #eee;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.input__textbox:focus {
+    outline: none;
+}
+.form__button {
+    padding: 8px 15px;
+    font-size: 12px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.form__button:hover {
+    transition: 0.3s;
+}
+/* form 個別(追加) */
+.form__create {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.textbox__create {
+    padding: 9px 5px;
+    width: 80%;
+}
+.button__create {
+    border-color: #c9f;
+    color: #c9f;
+    white-space: nowrap;
+}
+.button__create:hover {
+    background-color: #c9f;
+    color: #fff;
+}
+
+/* form 個別(更新・削除) */
+table {
+    width: 100%;
+}
+.form__update__data-hidden {
+    display: none;
+}
+.form__update__data-displayed {
+    text-align: center;
+}
+.form__update__label th {
+    padding-bottom: 30px;
+}
+.form__update__item td {
+    padding-top: 10px;
+}
+.textbox__update {
+    padding: 5px 5px;
+    width: 90%;
+}
+.button__update {
+    border-color: #ffa000;
+    color: #ffa000;
+}
+.button__update:hover {
+    background-color: #ffa000;
+    color: #fff;
+}
+.button__delete {
+    border-color: #7fd;
+    color: #7fd;
+}
+.button__delete:hover {
+    background-color: #7fd;
+    color: #fff;
+}
